@@ -49,8 +49,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  /* 
-    overflow-x: hidden; */ }
+  overflow-x: hidden; }
 
 /* .container {
     max-width: 11600px;/* 
@@ -311,11 +310,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: 0; }
+  align-items: center; }
+  @media only screen and (max-width: 960px) {
+    .title {
+      margin-top: -17rem; } }
   .title img {
     height: 300px;
     width: 300px;
+    margin-top: -8rem;
     /* 
         display: flex;
         justify-content: center; */ }
@@ -343,7 +345,8 @@ body {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  justify-content: center; }
+  justify-content: center;
+  /*  */ }
   @media only screen and (max-width: 690px) {
     .featured-section {
       display: flex;
@@ -439,17 +442,25 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-  overflow: hidden; }
+  overflow-x: hidden; }
+  @media (min-aspect-ratio: 16 / 9) {
+    video video {
+      width: 100%;
+      height: auto; } }
+  @media (min-aspect-ratio: 16 / 9) {
+    video video {
+      width: auto;
+      height: 100%; } }
 
 /* .video-background {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
     
     @media (min-aspect-ratio: 16/9) {
         .video-background {
@@ -475,7 +486,8 @@ video {
   justify-content: center;
   align-items: center;
   background-color: rgba(128, 128, 128, 0.11);
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  margin-bottom: 20rem; }
   .membership-section .membership-text {
     margin-top: 5rem; }
     .membership-section .membership-text h2 {
@@ -486,10 +498,16 @@ video {
       justify-content: center;
       align-items: center;
       margin-bottom: 2rem; }
+      @media only screen and (max-width: 760px) {
+        .membership-section .membership-text h2 {
+          font-size: 3rem; } }
     .membership-section .membership-text ul li {
       font-size: 2rem;
       list-style-type: none;
       text-align: center; }
+      @media only screen and (max-width: 960px) {
+        .membership-section .membership-text ul li {
+          font-size: 1.5rem; } }
   .membership-section .membership-social-icon {
     display: flex;
     flex-direction: column;
@@ -499,17 +517,29 @@ video {
       height: 500px;
       width: 500px;
       color: #004d00; }
+      @media only screen and (max-width: 760px) {
+        .membership-section .membership-social-icon img img {
+          height: 300px;
+          width: 300px; } }
     .membership-section .membership-social-icon div {
       display: flex;
       justify-content: center;
       align-content: center;
-      margin-top: 10rem;
-      margin-bottom: 10rem; }
+      margin-top: 5rem;
+      margin-bottom: 5rem; }
+      @media only screen and (max-width: 860px) {
+        .membership-section .membership-social-icon div {
+          margin-top: 3rem;
+          margin-bottom: 3rem; } }
       .membership-section .membership-social-icon div img {
         z-index: 1;
         margin: 2rem;
         height: 50px;
         width: 50px; }
+        @media only screen and (max-width: 960px) {
+          .membership-section .membership-social-icon div img img {
+            width: 25px;
+            height: 25px; } }
 
 .newsletter-section {
   margin-top: 3rem;
@@ -618,18 +648,19 @@ video {
     /* padding: 10rem; */
     justify-content: space-between;
     margin-bottom: 10rem;
-    align-items: center; }
+    align-items: center;
+    margin-top: 2rem; }
     .header .hero-video .header-nav .logo-container img {
       margin-left: 4rem;
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 130px;
       /*   @media only screen and (max-width: 1336px) {
                         margin-top: 5rem;
                     } */ }
       @media only screen and (max-width: 960px) {
-        .header .hero-video .header-nav .logo-container img {
+        .header .hero-video .header-nav .logo-container img img {
           margin-top: 0;
-          width: 100px;
+          width: 70px;
           height: 100px; } }
     .header .hero-video .header-nav .nav ul {
       /*  background-color: rgb(66, 211, 211); */
