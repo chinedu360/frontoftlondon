@@ -438,8 +438,35 @@ video {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0; }
+  left: 0;
+  overflow: hidden; }
 
+/* .video-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    
+    @media (min-aspect-ratio: 16/9) {
+        .video-background {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+        .video-background {
+            width: auto;
+            height: 100%;
+        }
+    }
+}
+
+ */
 .membership-section {
   /* background-image: url(/img/svg/blob.svg); */
   background-repeat: no-repeat;
