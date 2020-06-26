@@ -56,69 +56,12 @@ body {
     max-width: 11600px;/* 
     margin-left: 60rem; 
 } */
-/* body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 16px; 
-    line-height: 1.7;
-    color: $color-primary;
-}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7; }
 
-.heading-primary {
-    color: $color-primary-white;
-    text-transform: uppercase;
-
-    backface-visibility: hidden;
-    margin-bottom: 4rem;
-
-    &--main {
-        display: block;
-        font-size: 6.9rem;
-        font-weight: 400;
-        letter-spacing: 3.5rem;
-        animation: moveInTop 2s ease-out;
-        
-    
-        
-        animation-delay: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-out; 
-    }
-    
-    &--minor {
-        display: block;
-        font-size: 2rem;
-        font-weight: 400;
-        letter-spacing: .5rem;
-        animation: moveInTop 2s ease-out;
-        
-    }
-}
-
-.heading-secondary {
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.heading-tertiary {
-    font-size: $default-font-size;
-    font-weight: 700;
-    text-transform: uppercase;
-    
-}
-
-.paragraph {
-    font-size: 1.9rem;
-
-    &:not(:last-child) {
-        margin-bottom: 3rem;
-    }
-}
-
-
- */
 /* .u-center-text {
     text-align: center;
 }
