@@ -9,111 +9,133 @@
         <link rel="stylesheet" href="css/fontawesome/all.css">
         
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" 
+        integrity="sha256-9/aliU8dGd2tb60SsuzixeV4y/faTqgFtohetphbbj0=" 
+        crossorigin="anonymous"></script>
+        
         <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     
         <title>Theseus London | Your World. First</title>
     </head>
 <body>
-     <div class="container">                    
-         <header class="header"> 
-            
-            <video muted playsinline autoplay="true" loop class="video-background" poster="Personal-Shopping.png">
-                <source src="/img/desktop/til.mp4" type="video/mp4">
-                <source src="/img/desktop/tll.webm" type="video/webm">
+    <header class="header-section">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay loop>
+                <source src="/img/desktop/2.mp4" type="video/mp4">
+                <source src="/img/desktop/1.webm" type="video/webm">
+                Your browers is not supported    
             </video>
-                <div class="hero-video">
-                    <div class="header-nav">
-                        <div class="logo-container">
-                            <img src="img/theseus-london-logo-main-gold.png" alt="Theseus londn logo">
-                        </div>
+        </div>
 
-                        <div class="nav">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Membership</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About</a></li>
-                            </ul>
-                        </div>
-                    </div>
+        <nav>
+            <ul>
+                <li class="logo"><a href="#"><img class="logo" src="img/theseus-london-logo-main-gold.png" alt="Theseus londn logo"></a></li>
+                <li class="items"><a href="#">Home</a></li>
+                <li class="items"><a href="#">About</a></li>
+                <li class="items"><a href="#">Services</a></li>
+                <li class="items"><a href="#">Membership</a></li>
+                <li class="items"><a href="#">Contact</a></li>
+                <li class="btn-nav"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
 
-                    <div class="center-btn">
-                        <div class="btn-container">
-                            <a href="#" class="btn-learn">Learn More</a>
-                        </div>
+        <div class="hero-btn">
+            <a class="learn-btn btn" href="#">Learn More</a>
+            <a class="contact-btn btn" href="#">Contact Us</a>
+        </div> 
+    </header>
 
-                        <div class="btn-container">
-                            <a href="#" class="btn">Contact Us</a>
-                        </div>
-                    </div>
+    <main class="container">
+        <div class="heading">
+            <img src="/img/theseus-london-logo-mp1.jpg" alt="" srcset="">
+            <h1>featured</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Personalised-Service.jpg" alt="Personalised-Service">
                 </div>
-
-                <div class="header-overlay"></div>
-        </header>
-        <section class="title">
-
-            <img src="/img/theseus-london-logo-mp.jpg" alt="">
-
-            <div class="featured-title">
-                <h2>featured</h2>
-            </div>
-        </section>
-        <section class="featured-section padding-top">
-
-            <div class="items">
-                <img src="/img/Personalised-Service.jpg" alt="">
-                <div class="items-container">   
-                    <h2>Personalised Service</h2>
-                 <p>
+                <div class="card-header">
+                    <h1>Personalised Service</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
                         As our member, you have one point of contact in your personal lifestyle manager, who will 
                         work tirelessly to understand your tastes and aspirations. Every proactive recommendation 
                         made to you, be it for a tutor, property, artwork, private members’ club, or simply the 
                         best restaurant table in town, will be carefully selected to enrich your life, helping you 
-                        and those you love to make the best of every moment.  
+                        and those you love to make the best of every moment. 
                     </p>
                 </div>
             </div>
-            <div class="items">
-                <img src="/img/Lifestyle-Management.jpg" alt="">
 
-                <div class="items-container">
-
-                    <h2>Lifestyle Management</h2>
-                <p>
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Lifestyle-Management.jpg" alt="Lifestyle Management">
+                </div>
+                <div class="card-header">
+                    <h1>Lifestyle Management</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
                         In addition to turning your dreams into reality, our expert lifestyle managers are onhand 
                         24 hours a day to attend to your day-to-day tasks, in their commitment to saving you time, 
                         and enriching every aspect of your life. Devoted to fulfilling every desire, and catering 
                         to every request - however small - our lifestyle managers will access in-demand theatre 
                         tickets, secure a booked-out restaurant reservation, organise transport, source the most 
                         suitable tutor for your child, or book you a dream holiday. And that’s just the start.  
-                    </p> 
+                    </p>
                 </div>
             </div>
-            <div class="items">
-                <img src="/img/The-Luxury-of-Time.png" alt="">
 
-                <div class="items-container">
-
-                    <h2>the luxury of time</h2>
-                 <p>
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/The-Luxury-of-Time.png" alt="the luxury of time">
+                </div>
+                <div class="card-header">
+                    <h1>the luxury of time</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
                         Our expert lifestyle managers around the world are on-hand 24 hours a day, taking charge of 
                         he day-to-day tasks that eat away at our members’ time. Whether it’s 
                         booking a Michelin-starred restaurant or a last-minute business trip, we take care of all the
-                         details, so that you - as our member – can spend more time on the things you love.  
-                    </p> 
+                         details, so that you - as our member – can spend more time on the things you love. 
+                    </p>
                 </div>
             </div>
-        </section>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Business-Travel.jpg" alt="Business Travel">
+                </div>
+                <div class="card-header">
+                    <h1>Business Travel</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
+                        The mission of our dedicated global network of travel specialists is to unearth the most 
+                        amazing business travel experience on the globe. From your vehicle, to accommodation. 
+                        From meeting location to meeting materials. Theseus endeavour to be the spine of every 
+                        successful business engagement; helping to ensure that every deal is brought to completion.
+                    </p>
+                </div>
+            </div> 
+
+           <!--  <a href="#" class="btn-1">more</a> -->
+        </div>
+    </main>  
+        
         <div class="center-btn more">
             <div class="btn-container more-container">
                 <a href="#" class="btn-learn more-a">More &rarr;</a>
             </div>
         </div>
         
-        <section class="membership-section"><!-- 
-            <img src="/img/svg/blob.svg" alt=""> -->
-            <div class="membership-text">
+        <section class="membership-section"> 
+           <div class="membership-text">
                 <h2>membership</h2>
                 <div class="">
                     <ul>
@@ -141,181 +163,172 @@
             </div>
         </section>
 
-        <section class="title">
+        
+    <main class="container">
+        <div class="row">
 
-            <!-- <img src="/img/theseus-london-logo-mp.jpg" alt="">
- -->
-            <div class="featured-title">
-                <h2></h2>
-            </div>
-        </section>
-
-        <section class="featured-section">
-            <div class="items">
-                <img src="/img/Business-Travel.jpg" alt="">
-
-                <div class="items-container">
-
-                    <h2>Business Travel</h2>
-                    <p>
-                        The mission of our dedicated global network of travel specialists is to unearth the most 
-                        amazing business travel experience on the globe. From your vehicle, to accommodation. 
-                        From meeting location to meeting materials. Theseus endeavour to be the spine of every 
-                        successful business engagement; helping to ensure that every deal is brought to completion.
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Access.png" alt="access">
+                </div>
+                <div class="card-header">
+                    <h1>Access</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
+                        We turn your dreams into reality thanks to our unrivalled access into the world of luxury. 
+                        Our specialist lifestyle managers are devoted to creating unforgettable experiences, 
+                        by granting access to sold-out concerts, coveted cultural events, exhibitions and shows, 
+                        highly sought-after restaurants, the hippest cocktail bars, private dinner parties, 
+                        VIP wine tastings, and exclusive backstage tours with worldrenowned artists and performers. 
                     </p>
                 </div>
             </div>
-            <div class="items">
-                <img src="/img/Access.png" alt="">
 
-                <div class="items-container">
-
-                <h2>Access</h2>
-                 <p>
-                    We turn your dreams into reality thanks to our unrivalled access into the world of luxury. 
-                    Our specialist lifestyle managers are devoted to creating unforgettable experiences, 
-                    by granting access to sold-out concerts, coveted cultural events, exhibitions and shows, 
-                    highly sought-after restaurants, the hippest cocktail bars, private dinner parties, 
-                    VIP wine tastings, and exclusive backstage tours with worldrenowned artists and performers.  
-                </p> 
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Travel.png" alt="Travel">
                 </div>
-            </div>
-            <div class="items">
-                <div class="items-container">
-                    <img src="/img/Travel.png" alt="">
-
-                    <div class="items-container">
-
-                        <h2>Travel</h2>
-                      <p>
-                         
+                <div class="card-header">
+                    <h1>Travel</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
                         Welcome to our world of luxury tailor-made travel. 
                         Our dedicated global network of travel specialists offer the most amazing destinations 
                         and curate bespoke travel experiences. From luxury hotels to the finest resorts, private 
                         islands, and alpine retreats, we plan and curate one-of-a-kind holidays, 
-                        tailored to personal desires.  
-                        </p> 
-                    </div>
-                </div>  
-
+                        tailored to personal desires.   
+                    </p>
+                </div>
             </div>
-        </section>
-        <section class="featured-section">
-            <div class="items">
-                <img src="/img/Property.png" alt="">
 
-                <div class="items-container">
-
-                    <h2>Property</h2>
-                    <p>
-                           
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Property.png" alt="property">
+                </div>
+                <div class="card-header">
+                    <h1>property</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
                         With our expertise and access to the best Real Estate in Africa and around the world, 
                         whether the desire is to buy, sell or rent a first-class residence, our specialists will 
                         find the perfect property to suit every lifestyle and investment objective.  
                     </p>
                 </div>
             </div>
-            <div class="items">
-                <img src="/img/Education.png" alt="">
 
-                <div class="items-container">
-
-                <h2>Education</h2>
-                 <p>
-                    Our dedicated education department offers access to world-renowned professionals, 
-                    providing consultancy services and best-in-class private tuition. With students at the heart of our bespoke service,
-                    we provide expert advice on the finest nurseries, schools and universities, in the world’s most desirable locations.    
-                </p> 
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Education.png" alt="education">
                 </div>
-            </div>
-            <div class="items">
-                <div class="items-container">
-                    <img src="/img/Personal-Shopping.png" alt="">
+                <div class="card-header">
+                    <h1>Education</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
+                        Our dedicated education department offers access to world-renowned professionals, 
+                        providing consultancy services and best-in-class private tuition. With students at the heart of our bespoke service,
+                        we provide expert advice on the finest nurseries, schools and universities, in the world’s most desirable locations.    
+                    </p>
+                </div>
+            </div> 
+        </div>
+    </main>  
 
-                    <div class="items-container">
+    <!--  -->
+    <main class="container">
 
-                    <h2>Personal Shopping</h2>
-                      <p>
-                          
+        <div class="row">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Personal-Shopping.png" alt="Personal Shopping">
+                </div>
+                <div class="card-header">
+                    <h1>Personal Shopping</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
                         Our personal shopping and style experts are masters at sourcing coveted fashion, 
                         rare collectables and unique gifts for that special someone.  
                         From the latest designer styles, to fine jewellery, luxury watches and elusive artworks, 
-                        our private shopping specialists have every wish list covered.   
-                        </p> 
-                    </div>
-                </div>  
-
-            </div>
-        </section>
-        <section class="featured-section">
-            <div class="items">
-                <img src="/img/Private-Parties-and-Celebrations.png" alt="">
-
-                <div class="items-container">
-
-                    <h2>Private Parties & Celebrations</h2>
-                    <p>
-                        
-                        We pride ourselves in creating the most exclusive and lavish parties and celebrations that can be 
-                        hosted at any part of the globe. From birthday to presidential campaign celebrations. 
-                        We at Theseus can create a world just by our tailored taste and level of excellent execution. 
+                        our private shopping specialists have every wish list covered.  
                     </p>
                 </div>
             </div>
-            <div class="items">
-                <img src="/img/Weddings.jpg" alt="">
 
-                <div class="items-container">
-
-                <h2>Weddings</h2>
-                 <p>
-                    We create the most spectacular weddings in the world. We are a small but perfectly formed team of multi-lingual 
-                    planners working with integrity, creativity and attention to detail.  
-                    As wedding experts for over a decade and a half, we offer a truly bespoke end-toend service. With an unrivalled global network, 
-                    we maintain excellent relationships, offer expert local knowledge and passionately go the extra mile, always
-                </p> 
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Private-Parties-and-Celebrations.png" alt="Private Parties & Celebrations">
+                </div>
+                <div class="card-header">
+                    <h1>Private Parties & Celebrations</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
+                        We pride ourselves in creating the most exclusive and lavish parties and celebrations that can be 
+                        hosted at any part of the globe. From birthday to presidential campaign celebrations. 
+                        We at Theseus can create a world just by our tailored taste and level of excellent execution.   
+                    </p>
                 </div>
             </div>
-            <div class="items">
-                <div class="items-container">
-                    <img src="/img/Business-Asset-Management.png" alt="">
 
-                    <div class="items-container">
-                    <h2>Business/ Asset Management</h2>
-                      <p>
-                        Theseus’ edge for business and economic prosperity allows us to support, SME’s, 
-                        Big corporations and family offices to execute successful business transactions and help to manage assets, 
-                        whilst also opening up new conversations of current investments that are worth doubling our members money. 
-                        We have supported world renown business and organisations in globalising their services and opening new offices.
-                        </p> 
-                    </div>
-                </div>  
-            </div>
-        </section>
-
-
-        
-        <section class="newsletter-section">
-            <div class="title">
-    
-                <div class="news-title">
-                    <h2>subscribe to our email list</h2>
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Weddings.jpg" alt="weddings">
                 </div>
-
-                <div class="newsletter-form">
-                    <form action="#" method="post">
-
-                        <div class="newsletter-input">
-                            <input type="email" placeholder="Enter Your Email">
-                        </div>
-                        <div class="newsletter-btn">
-                            <button class="submit" type="submit">submit</button>
-                        </div>
-                    </form>
+                <div class="card-header">
+                    <h1>Weddings</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
+                        
+                        We create the most spectacular weddings in the world. We are a small but perfectly formed team of multi-lingual 
+                        planners working with integrity, creativity and attention to detail.  
+                        As wedding experts for over a decade and a half, we offer a truly bespoke end-toend service. With an unrivalled global network, 
+                        we maintain excellent relationships, offer expert local knowledge and passionately go the extra mile, always
+                    </p>
                 </div>
             </div>
-           
-        </section>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="/img/Business-Asset-Management.png" alt="Business assets Management>
+                </div>
+                <div class="card-header">
+                    <h1>Business/ Asset Management</h1>
+                </div>
+                <div class="card-body">
+                    <p> 
+                        The mission of our dedicated global network of travel specialists is to unearth the most 
+                        amazing business travel experience on the globe. From your vehicle, to accommodation. 
+                        From meeting location to meeting materials. Theseus endeavour to be the spine of every 
+                        successful business engagement; helping to ensure that every deal is brought to completion.
+                    </p>
+                </div>
+            </div> 
+        </div>
+    </main>  
+
+    <main class="container join">
+        <div class="heading">
+            <h5>join us</h5>
+        </div>
+        <div class="join-us">
+            <form action="#" method="post">
+
+                <div class="newsletter-input">
+                    <input type="email" placeholder="Enter Your Email">
+                </div>
+                <div class="newsletter-btn">
+                    <button class="submit" type="submit">submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
         <footer class="footer">
             <div class="footer-logo">
                 <img src="/img/theseus-london-logo-main-gold.png" alt="">
@@ -349,6 +362,17 @@
                 </p>
             </div>
         </footer>
-    </div>
+    </div> 
+
+    <script>
+         $.noConflict();
+        $(document).ready(function(){
+            $('.btn-nav').click(function(){
+                $('.items').toggleClass("show");
+                $('ul li').toggleClass("hide");
+            });
+        });
+    </script>
+   
 </body>
 </html>
